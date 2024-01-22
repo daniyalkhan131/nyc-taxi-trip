@@ -35,7 +35,7 @@ def main():
     X = train_features.drop(TARGET, axis=1)
     y = train_features[TARGET]
 
-    trained_model = train_model(X, y, params['n_estimators'], params['max_depth'], params['seed'])
+    trained_model = train_model(X.values, y.values, params['n_estimators'], params['max_depth'], params['seed'])
     save_model(trained_model, output_path)
 
     
