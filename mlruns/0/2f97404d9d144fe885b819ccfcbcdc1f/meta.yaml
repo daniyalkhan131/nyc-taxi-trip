@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/daniyalkhan/Documents/AI/Projects/try_projects/nyc-taxi-trip/mlruns/0/2f97404d9d144fe885b819ccfcbcdc1f/artifacts
+end_time: 1706282264669
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f97404d9d144fe885b819ccfcbcdc1f
+run_name: XGBRegressor
+run_uuid: 2f97404d9d144fe885b819ccfcbcdc1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706282259044
+status: 3
+tags: []
+user_id: daniyalkhan

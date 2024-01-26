@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/daniyalkhan/Documents/AI/Projects/try_projects/nyc-taxi-trip/mlruns/0/ec1816404117453994beddb9fa89f6fb/artifacts
+end_time: 1706282267327
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec1816404117453994beddb9fa89f6fb
+run_name: XGB Final Model
+run_uuid: ec1816404117453994beddb9fa89f6fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706282264671
+status: 3
+tags: []
+user_id: daniyalkhan
