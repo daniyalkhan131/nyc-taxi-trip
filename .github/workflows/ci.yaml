@@ -84,12 +84,11 @@ jobs:
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
         run: |
-          
-          docker pull 533267045850.dkr.ecr.us-east-1.amazonaws.com/nyc-taxi-trip:latest
-#docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-      # - name: Delete Previous Container
-      #   run: |
-      #     docker rm -f nyc-taxi-trip || true
+          docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+
+      - name: Delete Previous Container
+        run: |
+          docker rm -f nyc-taxi-trip || true
 
       - name: Run Docker Image to serve users
         run: |
