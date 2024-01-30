@@ -5,7 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the required files and directory into the container at /app
-COPY app.py /app/service.py
+COPY app.py /app/app.py
 COPY model.joblib /app/model.joblib
 COPY src/ /app/src/
 COPY requirements.txt /app/requirements.txt
